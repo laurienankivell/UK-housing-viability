@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8b1e7b07b1d337b19c1861681a3d2d86 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    
+            <style> #vega_lite_ecb4cc23dce4df9bac8077d4ae799fc2 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    <script src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    
+            <style> #vega_lite_5c7c918b1defd15dbf19e359e0d0df54 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_97012325209ff7c7e1d9f6ed297a28a3 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2186f5c9aeb923d28910be17b2b3a0b8 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_cece10131d8ef0cd7753b9b9286582df {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_b358b8362310a89076241b1e95de54dc {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_3fe09c5390ab59ddfc02d3509e51c547 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_f91db12004dfbc55d11f9ad5f37434bb {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_9827b64f420d66076f6b40d7732caed4 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_d62c3820a7cb188beaa30c20a31f94d9 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_49441529c23c088d1e530be2fcd8c15a {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_96ef4bd9d07d6db7f2c23fef5209e738 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_9e2301c29fdf7aaa77f172d1ec244e4b {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_4a701cfe5b2f16371f6b33424d596827 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_b7f51f4f2fc243373cf09b2760512c6a {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_1885682ff82c33b58035f1eb4cdefa30 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_662fff74de2bc28a993f2893ae4ce77a {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_9e0c996ace6a4446d62f0f23ebf9a2e6 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_2a2b0d0c75218d43276d4d6d716977ff {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_ef0381562b7014852c578401f2a69642 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_b78a676212475ecabb3a9a63ac4c145f {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+    
+            <style> #vega_lite_8de88a53a83b420f3f04e0bcaba2a834 {
+                position : relative;
+                width : 250.0px;
+                height: 200.0px;
+                left: 0.0%;
+                top: 0.0%;
+            </style>
+            
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8b1e7b07b1d337b19c1861681a3d2d86" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8b1e7b07b1d337b19c1861681a3d2d86 = L.map(
+                "map_8b1e7b07b1d337b19c1861681a3d2d86",
+                {
+                    center: [52.5, -1.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_94681b6c1e794ea892225aad193bd625 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_94681b6c1e794ea892225aad193bd625.addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+            var circle_marker_f4695177c0416f0bd73d6f346c2b15ea = L.circleMarker(
+                [51.4705, -0.0706],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_18ae5ba97af7aa4a1a9d8faf287cd39a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_ecb4cc23dce4df9bac8077d4ae799fc2 = $(`             <div id="vega_lite_ecb4cc23dce4df9bac8077d4ae799fc2"></div>             `)[0];
+                popup_18ae5ba97af7aa4a1a9d8faf287cd39a.setContent(vega_lite_ecb4cc23dce4df9bac8077d4ae799fc2);
+            
+        
+
+        circle_marker_f4695177c0416f0bd73d6f346c2b15ea.bindPopup(popup_18ae5ba97af7aa4a1a9d8faf287cd39a)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_ecb4cc23dce4df9bac8077d4ae799fc2, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-c823350369859d3ac6b88fe106cab3cb"}, "datasets": {"data-c823350369859d3ac6b88fe106cab3cb": [{"Percentage": 35.0, "Stage": "Target"}, {"Percentage": 12.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Aylesham Shopping Centre", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_f4695177c0416f0bd73d6f346c2b15ea.bindTooltip(
+                `<div>
+                     <b>Aylesham Shopping Centre</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a4337657a7c7ab01f89ccd727eb27e1e = L.circleMarker(
+                [51.3998, -1.3238],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_86b71d943a065ae24628bbf8925f32d4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_5c7c918b1defd15dbf19e359e0d0df54 = $(`             <div id="vega_lite_5c7c918b1defd15dbf19e359e0d0df54"></div>             `)[0];
+                popup_86b71d943a065ae24628bbf8925f32d4.setContent(vega_lite_5c7c918b1defd15dbf19e359e0d0df54);
+            
+        
+
+        circle_marker_a4337657a7c7ab01f89ccd727eb27e1e.bindPopup(popup_86b71d943a065ae24628bbf8925f32d4)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_5c7c918b1defd15dbf19e359e0d0df54, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-3261e28f4bbf75b1e35882daec48af08"}, "datasets": {"data-3261e28f4bbf75b1e35882daec48af08": [{"Percentage": 30.0, "Stage": "Target"}, {"Percentage": 4.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Kennet Shopping Centre", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_a4337657a7c7ab01f89ccd727eb27e1e.bindTooltip(
+                `<div>
+                     <b>Kennet Shopping Centre</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8718df635aaf91d3b23064fbc02f3879 = L.circleMarker(
+                [51.6322, -0.7516],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_b322220da7f032ff41ea5f78d6f0498c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_97012325209ff7c7e1d9f6ed297a28a3 = $(`             <div id="vega_lite_97012325209ff7c7e1d9f6ed297a28a3"></div>             `)[0];
+                popup_b322220da7f032ff41ea5f78d6f0498c.setContent(vega_lite_97012325209ff7c7e1d9f6ed297a28a3);
+            
+        
+
+        circle_marker_8718df635aaf91d3b23064fbc02f3879.bindPopup(popup_b322220da7f032ff41ea5f78d6f0498c)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_97012325209ff7c7e1d9f6ed297a28a3, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-7cf924d1f6d43ab3e59c8b6ce8e741f6"}, "datasets": {"data-7cf924d1f6d43ab3e59c8b6ce8e741f6": [{"Percentage": 30.0, "Stage": "Target"}, {"Percentage": 0.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Chilterns Shopping Centre", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_8718df635aaf91d3b23064fbc02f3879.bindTooltip(
+                `<div>
+                     <b>Chilterns Shopping Centre</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4808164d122e44934144fd4f8ead7177 = L.circleMarker(
+                [51.4344, -2.568],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_55701556b8ce98fcaf7c08b69cecedcd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_2186f5c9aeb923d28910be17b2b3a0b8 = $(`             <div id="vega_lite_2186f5c9aeb923d28910be17b2b3a0b8"></div>             `)[0];
+                popup_55701556b8ce98fcaf7c08b69cecedcd.setContent(vega_lite_2186f5c9aeb923d28910be17b2b3a0b8);
+            
+        
+
+        circle_marker_4808164d122e44934144fd4f8ead7177.bindPopup(popup_55701556b8ce98fcaf7c08b69cecedcd)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2186f5c9aeb923d28910be17b2b3a0b8, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-de62553fbc3bafdc9400a678f8ab4108"}, "datasets": {"data-de62553fbc3bafdc9400a678f8ab4108": [{"Percentage": 30.0, "Stage": "Target"}, {"Percentage": 7.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Broadwalk Shopping Centre", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_4808164d122e44934144fd4f8ead7177.bindTooltip(
+                `<div>
+                     <b>Broadwalk Shopping Centre</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8a13f737ed2a609c1f3bd35ffb7d9419 = L.circleMarker(
+                [51.4816, -0.1446],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_ecb0ecda87e328ec5199327a53fa34f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_cece10131d8ef0cd7753b9b9286582df = $(`             <div id="vega_lite_cece10131d8ef0cd7753b9b9286582df"></div>             `)[0];
+                popup_ecb0ecda87e328ec5199327a53fa34f4.setContent(vega_lite_cece10131d8ef0cd7753b9b9286582df);
+            
+        
+
+        circle_marker_8a13f737ed2a609c1f3bd35ffb7d9419.bindPopup(popup_ecb0ecda87e328ec5199327a53fa34f4)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_cece10131d8ef0cd7753b9b9286582df, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-ba04ea9389a0281a632b72d49ea45a80"}, "datasets": {"data-ba04ea9389a0281a632b72d49ea45a80": [{"Percentage": 40.0, "Stage": "Target"}, {"Percentage": 9.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Battersea Power Station", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_8a13f737ed2a609c1f3bd35ffb7d9419.bindTooltip(
+                `<div>
+                     <b>Battersea Power Station</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d1a5e59ce1c8a70299925077346289bb = L.circleMarker(
+                [51.4939, 0.0039],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_afb75d33473b559c5f021075c5786745 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_b358b8362310a89076241b1e95de54dc = $(`             <div id="vega_lite_b358b8362310a89076241b1e95de54dc"></div>             `)[0];
+                popup_afb75d33473b559c5f021075c5786745.setContent(vega_lite_b358b8362310a89076241b1e95de54dc);
+            
+        
+
+        circle_marker_d1a5e59ce1c8a70299925077346289bb.bindPopup(popup_afb75d33473b559c5f021075c5786745)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_b358b8362310a89076241b1e95de54dc, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-f230312423aae3d1d864a2d6b1274cad"}, "datasets": {"data-f230312423aae3d1d864a2d6b1274cad": [{"Percentage": 50.0, "Stage": "Target"}, {"Percentage": 28.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Greenwich Peninsula", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_d1a5e59ce1c8a70299925077346289bb.bindTooltip(
+                `<div>
+                     <b>Greenwich Peninsula</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_efb31d759d8ec4e569609104bd2f3784 = L.circleMarker(
+                [51.4925, -0.0983],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_e8faaf486d245a156919660bf5622625 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_3fe09c5390ab59ddfc02d3509e51c547 = $(`             <div id="vega_lite_3fe09c5390ab59ddfc02d3509e51c547"></div>             `)[0];
+                popup_e8faaf486d245a156919660bf5622625.setContent(vega_lite_3fe09c5390ab59ddfc02d3509e51c547);
+            
+        
+
+        circle_marker_efb31d759d8ec4e569609104bd2f3784.bindPopup(popup_e8faaf486d245a156919660bf5622625)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_3fe09c5390ab59ddfc02d3509e51c547, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-1b0c7cfe7cb8663644498f87d6fc3ffb"}, "datasets": {"data-1b0c7cfe7cb8663644498f87d6fc3ffb": [{"Percentage": 35.0, "Stage": "Target"}, {"Percentage": 25.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Heygate Estate", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_efb31d759d8ec4e569609104bd2f3784.bindTooltip(
+                `<div>
+                     <b>Heygate Estate</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7a54ff59eb4e99b2b5cdb56894f78039 = L.circleMarker(
+                [51.5348, -0.1235],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_8c27d39d912d34bec075ea1814c4eca5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_f91db12004dfbc55d11f9ad5f37434bb = $(`             <div id="vega_lite_f91db12004dfbc55d11f9ad5f37434bb"></div>             `)[0];
+                popup_8c27d39d912d34bec075ea1814c4eca5.setContent(vega_lite_f91db12004dfbc55d11f9ad5f37434bb);
+            
+        
+
+        circle_marker_7a54ff59eb4e99b2b5cdb56894f78039.bindPopup(popup_8c27d39d912d34bec075ea1814c4eca5)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_f91db12004dfbc55d11f9ad5f37434bb, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-02626967d6b96720e84fc285fb829d14"}, "datasets": {"data-02626967d6b96720e84fc285fb829d14": [{"Percentage": 43.0, "Stage": "Target"}, {"Percentage": 33.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "King's Cross Central", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_7a54ff59eb4e99b2b5cdb56894f78039.bindTooltip(
+                `<div>
+                     <b>King's Cross Central</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e174920623aabcf34dbdbb171323b3e = L.circleMarker(
+                [51.4848, -0.1281],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_87aa7a00e0ba51f0583d47a4b8c5696a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_9827b64f420d66076f6b40d7732caed4 = $(`             <div id="vega_lite_9827b64f420d66076f6b40d7732caed4"></div>             `)[0];
+                popup_87aa7a00e0ba51f0583d47a4b8c5696a.setContent(vega_lite_9827b64f420d66076f6b40d7732caed4);
+            
+        
+
+        circle_marker_2e174920623aabcf34dbdbb171323b3e.bindPopup(popup_87aa7a00e0ba51f0583d47a4b8c5696a)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_9827b64f420d66076f6b40d7732caed4, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-13d528acd01bd1f2cad9f40fb8a664a1"}, "datasets": {"data-13d528acd01bd1f2cad9f40fb8a664a1": [{"Percentage": 40.0, "Stage": "Target"}, {"Percentage": 15.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "One Nine Elms", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_2e174920623aabcf34dbdbb171323b3e.bindTooltip(
+                `<div>
+                     <b>One Nine Elms</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e6d187bb5beb41b3ecec2f295057cdf = L.circleMarker(
+                [51.5072, -0.025],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_659c02692bf521946ae67f4337ff6d54 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_d62c3820a7cb188beaa30c20a31f94d9 = $(`             <div id="vega_lite_d62c3820a7cb188beaa30c20a31f94d9"></div>             `)[0];
+                popup_659c02692bf521946ae67f4337ff6d54.setContent(vega_lite_d62c3820a7cb188beaa30c20a31f94d9);
+            
+        
+
+        circle_marker_5e6d187bb5beb41b3ecec2f295057cdf.bindPopup(popup_659c02692bf521946ae67f4337ff6d54)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_d62c3820a7cb188beaa30c20a31f94d9, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-1b0c7cfe7cb8663644498f87d6fc3ffb"}, "datasets": {"data-1b0c7cfe7cb8663644498f87d6fc3ffb": [{"Percentage": 35.0, "Stage": "Target"}, {"Percentage": 25.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Spire London", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_5e6d187bb5beb41b3ecec2f295057cdf.bindTooltip(
+                `<div>
+                     <b>Spire London</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a813f6bbfec07c602e56485e57dc36e9 = L.circleMarker(
+                [50.2222, -5.275],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_17571e0ded85c20ff21e2022c34682b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_49441529c23c088d1e530be2fcd8c15a = $(`             <div id="vega_lite_49441529c23c088d1e530be2fcd8c15a"></div>             `)[0];
+                popup_17571e0ded85c20ff21e2022c34682b9.setContent(vega_lite_49441529c23c088d1e530be2fcd8c15a);
+            
+        
+
+        circle_marker_a813f6bbfec07c602e56485e57dc36e9.bindPopup(popup_17571e0ded85c20ff21e2022c34682b9)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_49441529c23c088d1e530be2fcd8c15a, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-67a864c534d04971dda0b86ba105a3df"}, "datasets": {"data-67a864c534d04971dda0b86ba105a3df": [{"Percentage": 40.0, "Stage": "Target"}, {"Percentage": 0.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "South Crofty", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_a813f6bbfec07c602e56485e57dc36e9.bindTooltip(
+                `<div>
+                     <b>South Crofty</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66f2114890d940e51722c3c5897d1a24 = L.circleMarker(
+                [51.4627, -2.5891],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_a360212d64484a4d65a834f5215a18fd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_96ef4bd9d07d6db7f2c23fef5209e738 = $(`             <div id="vega_lite_96ef4bd9d07d6db7f2c23fef5209e738"></div>             `)[0];
+                popup_a360212d64484a4d65a834f5215a18fd.setContent(vega_lite_96ef4bd9d07d6db7f2c23fef5209e738);
+            
+        
+
+        circle_marker_66f2114890d940e51722c3c5897d1a24.bindPopup(popup_a360212d64484a4d65a834f5215a18fd)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_96ef4bd9d07d6db7f2c23fef5209e738, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-29cab4bf0d5b786b1dc9b7169f71c76d"}, "datasets": {"data-29cab4bf0d5b786b1dc9b7169f71c76d": [{"Percentage": 40.0, "Stage": "Target"}, {"Percentage": 10.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Carriageworks", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_66f2114890d940e51722c3c5897d1a24.bindTooltip(
+                `<div>
+                     <b>Carriageworks</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f3ce129892478032a278cad533f7e829 = L.circleMarker(
+                [51.4697, -2.5532],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_798f69b10ecfb1f812c42eb703839794 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_9e2301c29fdf7aaa77f172d1ec244e4b = $(`             <div id="vega_lite_9e2301c29fdf7aaa77f172d1ec244e4b"></div>             `)[0];
+                popup_798f69b10ecfb1f812c42eb703839794.setContent(vega_lite_9e2301c29fdf7aaa77f172d1ec244e4b);
+            
+        
+
+        circle_marker_f3ce129892478032a278cad533f7e829.bindPopup(popup_798f69b10ecfb1f812c42eb703839794)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_9e2301c29fdf7aaa77f172d1ec244e4b, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-bdb52063da364aca9685564c9ba21eee"}, "datasets": {"data-bdb52063da364aca9685564c9ba21eee": [{"Percentage": 30.0, "Stage": "Target"}, {"Percentage": 22.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Chocolate Factory", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_f3ce129892478032a278cad533f7e829.bindTooltip(
+                `<div>
+                     <b>Chocolate Factory</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5c4c7742287b2f37118341a34b12a6d0 = L.circleMarker(
+                [53.4791, -2.257],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_c8cac884c065da4aed127573de12ea24 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_4a701cfe5b2f16371f6b33424d596827 = $(`             <div id="vega_lite_4a701cfe5b2f16371f6b33424d596827"></div>             `)[0];
+                popup_c8cac884c065da4aed127573de12ea24.setContent(vega_lite_4a701cfe5b2f16371f6b33424d596827);
+            
+        
+
+        circle_marker_5c4c7742287b2f37118341a34b12a6d0.bindPopup(popup_c8cac884c065da4aed127573de12ea24)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_4a701cfe5b2f16371f6b33424d596827, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-b38a328ccfc051b952c9c0bdf55afaa8"}, "datasets": {"data-b38a328ccfc051b952c9c0bdf55afaa8": [{"Percentage": 20.0, "Stage": "Target"}, {"Percentage": 0.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "T1 Water Street", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_5c4c7742287b2f37118341a34b12a6d0.bindTooltip(
+                `<div>
+                     <b>T1 Water Street</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_210a45b438de8adad974b91565509afd = L.circleMarker(
+                [53.4735, -2.2386],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_de7763dbbc3d9636b59b7f5121cb4f06 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_b7f51f4f2fc243373cf09b2760512c6a = $(`             <div id="vega_lite_b7f51f4f2fc243373cf09b2760512c6a"></div>             `)[0];
+                popup_de7763dbbc3d9636b59b7f5121cb4f06.setContent(vega_lite_b7f51f4f2fc243373cf09b2760512c6a);
+            
+        
+
+        circle_marker_210a45b438de8adad974b91565509afd.bindPopup(popup_de7763dbbc3d9636b59b7f5121cb4f06)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_b7f51f4f2fc243373cf09b2760512c6a, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-b38a328ccfc051b952c9c0bdf55afaa8"}, "datasets": {"data-b38a328ccfc051b952c9c0bdf55afaa8": [{"Percentage": 20.0, "Stage": "Target"}, {"Percentage": 0.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Circle Square", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_210a45b438de8adad974b91565509afd.bindTooltip(
+                `<div>
+                     <b>Circle Square</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bf3830cddb2a8181a2d046fe540e6a8 = L.circleMarker(
+                [53.4742, -2.2574],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_68d3059b3a95734608b3adfacb9ea2fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_1885682ff82c33b58035f1eb4cdefa30 = $(`             <div id="vega_lite_1885682ff82c33b58035f1eb4cdefa30"></div>             `)[0];
+                popup_68d3059b3a95734608b3adfacb9ea2fe.setContent(vega_lite_1885682ff82c33b58035f1eb4cdefa30);
+            
+        
+
+        circle_marker_7bf3830cddb2a8181a2d046fe540e6a8.bindPopup(popup_68d3059b3a95734608b3adfacb9ea2fe)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_1885682ff82c33b58035f1eb4cdefa30, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-b38a328ccfc051b952c9c0bdf55afaa8"}, "datasets": {"data-b38a328ccfc051b952c9c0bdf55afaa8": [{"Percentage": 20.0, "Stage": "Target"}, {"Percentage": 0.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Slate Wharf", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_7bf3830cddb2a8181a2d046fe540e6a8.bindTooltip(
+                `<div>
+                     <b>Slate Wharf</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9fef4f7a959af9538342386d9e47110d = L.circleMarker(
+                [53.7482, -1.6019],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_5463636a55fe63d0d91e314e1a27914e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_662fff74de2bc28a993f2893ae4ce77a = $(`             <div id="vega_lite_662fff74de2bc28a993f2893ae4ce77a"></div>             `)[0];
+                popup_5463636a55fe63d0d91e314e1a27914e.setContent(vega_lite_662fff74de2bc28a993f2893ae4ce77a);
+            
+        
+
+        circle_marker_9fef4f7a959af9538342386d9e47110d.bindPopup(popup_5463636a55fe63d0d91e314e1a27914e)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_662fff74de2bc28a993f2893ae4ce77a, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-7cf924d1f6d43ab3e59c8b6ce8e741f6"}, "datasets": {"data-7cf924d1f6d43ab3e59c8b6ce8e741f6": [{"Percentage": 30.0, "Stage": "Target"}, {"Percentage": 0.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "South Queen Street Mill", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_9fef4f7a959af9538342386d9e47110d.bindTooltip(
+                `<div>
+                     <b>South Queen Street Mill</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a55eee2bc520b35a30093cec69530ef = L.circleMarker(
+                [52.476, -1.8909],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_12121b3e816e1ca5bbeffe5e35c54f77 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_9e0c996ace6a4446d62f0f23ebf9a2e6 = $(`             <div id="vega_lite_9e0c996ace6a4446d62f0f23ebf9a2e6"></div>             `)[0];
+                popup_12121b3e816e1ca5bbeffe5e35c54f77.setContent(vega_lite_9e0c996ace6a4446d62f0f23ebf9a2e6);
+            
+        
+
+        circle_marker_5a55eee2bc520b35a30093cec69530ef.bindPopup(popup_12121b3e816e1ca5bbeffe5e35c54f77)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_9e0c996ace6a4446d62f0f23ebf9a2e6, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-6b9aefab35bbc6a3775f46c05af357da"}, "datasets": {"data-6b9aefab35bbc6a3775f46c05af357da": [{"Percentage": 35.0, "Stage": "Target"}, {"Percentage": 11.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Smithfield", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_5a55eee2bc520b35a30093cec69530ef.bindTooltip(
+                `<div>
+                     <b>Smithfield</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_705ef2f16d4f6dad50dd7d461e2c67d2 = L.circleMarker(
+                [53.9699, -1.1216],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_e132e25e68ba532d33ba7b93f9644776 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_2a2b0d0c75218d43276d4d6d716977ff = $(`             <div id="vega_lite_2a2b0d0c75218d43276d4d6d716977ff"></div>             `)[0];
+                popup_e132e25e68ba532d33ba7b93f9644776.setContent(vega_lite_2a2b0d0c75218d43276d4d6d716977ff);
+            
+        
+
+        circle_marker_705ef2f16d4f6dad50dd7d461e2c67d2.bindPopup(popup_e132e25e68ba532d33ba7b93f9644776)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_2a2b0d0c75218d43276d4d6d716977ff, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-7c4e2aa89418c012710fa1e46dfa143f"}, "datasets": {"data-7c4e2aa89418c012710fa1e46dfa143f": [{"Percentage": 20.0, "Stage": "Target"}, {"Percentage": 3.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "British Sugar Site", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_705ef2f16d4f6dad50dd7d461e2c67d2.bindTooltip(
+                `<div>
+                     <b>British Sugar Site</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a753570f6825e2b4871e01e32e7cd8ce = L.circleMarker(
+                [51.4911, -0.196],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_b949cf2404f366afad0f2be267dacfb6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_ef0381562b7014852c578401f2a69642 = $(`             <div id="vega_lite_ef0381562b7014852c578401f2a69642"></div>             `)[0];
+                popup_b949cf2404f366afad0f2be267dacfb6.setContent(vega_lite_ef0381562b7014852c578401f2a69642);
+            
+        
+
+        circle_marker_a753570f6825e2b4871e01e32e7cd8ce.bindPopup(popup_b949cf2404f366afad0f2be267dacfb6)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_ef0381562b7014852c578401f2a69642, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-6b9aefab35bbc6a3775f46c05af357da"}, "datasets": {"data-6b9aefab35bbc6a3775f46c05af357da": [{"Percentage": 35.0, "Stage": "Target"}, {"Percentage": 11.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "Earls Court (Capco era)", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_a753570f6825e2b4871e01e32e7cd8ce.bindTooltip(
+                `<div>
+                     <b>Earls Court (Capco era)</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_430a37384485d47a1a580507abd4a29e = L.circleMarker(
+                [53.4794, -2.2553],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_ce55c1ec54ad885568704bc129a318bc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_b78a676212475ecabb3a9a63ac4c145f = $(`             <div id="vega_lite_b78a676212475ecabb3a9a63ac4c145f"></div>             `)[0];
+                popup_ce55c1ec54ad885568704bc129a318bc.setContent(vega_lite_b78a676212475ecabb3a9a63ac4c145f);
+            
+        
+
+        circle_marker_430a37384485d47a1a580507abd4a29e.bindPopup(popup_ce55c1ec54ad885568704bc129a318bc)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_b78a676212475ecabb3a9a63ac4c145f, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-b38a328ccfc051b952c9c0bdf55afaa8"}, "datasets": {"data-b38a328ccfc051b952c9c0bdf55afaa8": [{"Percentage": 20.0, "Stage": "Target"}, {"Percentage": 0.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "V&A Hotel", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_430a37384485d47a1a580507abd4a29e.bindTooltip(
+                `<div>
+                     <b>V&A Hotel</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_972724e59576f10ce3c12202fe554a93 = L.circleMarker(
+                [53.4734, -2.2548],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e74c3c", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_8b1e7b07b1d337b19c1861681a3d2d86);
+        
+    
+        var popup_b83b33ffdc663d400c0c59455733cd98 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var vega_lite_8de88a53a83b420f3f04e0bcaba2a834 = $(`             <div id="vega_lite_8de88a53a83b420f3f04e0bcaba2a834"></div>             `)[0];
+                popup_b83b33ffdc663d400c0c59455733cd98.setContent(vega_lite_8de88a53a83b420f3f04e0bcaba2a834);
+            
+        
+
+        circle_marker_972724e59576f10ce3c12202fe554a93.bindPopup(popup_b83b33ffdc663d400c0c59455733cd98)
+        ;
+
+        
+            
+                    vegaEmbed(vega_lite_8de88a53a83b420f3f04e0bcaba2a834, {"$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "config": {"axis": {"grid": false}, "view": {"continuousHeight": 300, "continuousWidth": 300, "stroke": null}}, "data": {"name": "data-b38a328ccfc051b952c9c0bdf55afaa8"}, "datasets": {"data-b38a328ccfc051b952c9c0bdf55afaa8": [{"Percentage": 20.0, "Stage": "Target"}, {"Percentage": 0.0, "Stage": "Delivered"}]}, "encoding": {"color": {"value": "#e74c3c"}, "tooltip": [{"field": "Stage", "type": "nominal"}, {"field": "Percentage", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "Stage", "sort": ["Target", "Delivered"], "title": null, "type": "nominal"}, "y": {"field": "Percentage", "scale": {"domain": [0, 60]}, "title": "Affordable %", "type": "quantitative"}}, "height": 150, "mark": {"point": true, "size": 4, "type": "line"}, "title": "2-4 Chester Road", "width": 180})
+                        .then(function(result) {})
+                        .catch(console.error);
+                
+        
+    
+    
+            circle_marker_972724e59576f10ce3c12202fe554a93.bindTooltip(
+                `<div>
+                     <b>2-4 Chester Road</b><br>Click to see delivery drop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
