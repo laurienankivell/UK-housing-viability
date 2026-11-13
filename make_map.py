@@ -40,7 +40,7 @@ def popup_chart(row, colour):
     return popup
 
 
-# The map. Folium adds Bootstrap and icon fonts by default; this map doesn't use them.
+# The map
 m = folium.Map(location=[52.5, -1.5], zoom_start=6, tiles=None)
 m.default_js = [js for js in m.default_js if js[0] in ("leaflet", "jquery")]  # jquery: needed by the popups
 m.default_css = [css for css in m.default_css if css[0] == "leaflet_css"]
