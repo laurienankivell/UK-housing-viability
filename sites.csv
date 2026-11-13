@@ -1,0 +1,29 @@
+name,layer,lat,lon,target_pct,promised_pct,actual_pct,actual_stage,social_rent_pct,intermediate_pct,note,source
+Aylesham Shopping Centre,Case studies,51.4705,-0.0706,35.0,,12.0,Delivered,,,,
+Kennet Shopping Centre,Case studies,51.3998,-1.3238,30.0,,4.0,Delivered,,,,
+Chilterns Shopping Centre,Case studies,51.6322,-0.7516,30.0,,0.0,Delivered,,,,
+Broadwalk Shopping Centre,Case studies,51.4344,-2.568,30.0,,7.0,Delivered,,,,
+Battersea Power Station,Case studies,51.4816,-0.1446,40.0,,9.0,Delivered,,,,
+Greenwich Peninsula,Case studies,51.4939,0.0039,50.0,,28.0,Delivered,,,,
+Heygate Estate,Case studies,51.4925,-0.0983,35.0,,25.0,Delivered,,,,
+King's Cross Central,Case studies,51.5348,-0.1235,43.0,,33.0,Delivered,,,,
+One Nine Elms,Case studies,51.4848,-0.1281,40.0,,15.0,Delivered,,,,
+Spire London,Case studies,51.5072,-0.025,35.0,,25.0,Delivered,,,,
+South Crofty,Case studies,50.2222,-5.275,40.0,,0.0,Delivered,,,,
+Carriageworks,Case studies,51.4627,-2.5891,40.0,,10.0,Delivered,,,,
+Chocolate Factory,Case studies,51.4697,-2.5532,30.0,,22.0,Delivered,,,,
+T1 Water Street,Case studies,53.4791,-2.257,20.0,,0.0,Delivered,,,,
+Circle Square,Case studies,53.4735,-2.2386,20.0,,0.0,Delivered,,,,
+Slate Wharf,Case studies,53.4742,-2.2574,20.0,,0.0,Delivered,,,,
+South Queen Street Mill,Case studies,53.7482,-1.6019,30.0,,0.0,Delivered,,,,
+Smithfield,Case studies,52.476,-1.8909,35.0,,11.0,Delivered,,,,
+British Sugar Site,Case studies,53.9699,-1.1216,20.0,,3.0,Delivered,,,,
+Earls Court (Capco era),Case studies,51.4911,-0.196,35.0,,11.0,Delivered,,,,
+V&A Hotel,Case studies,53.4794,-2.2553,20.0,,0.0,Delivered,,,,
+2-4 Chester Road,Case studies,53.4734,-2.2548,20.0,,0.0,Delivered,,,,
+York Road,Cherwell Group,51.47008,-0.1755,33.0,35.4,36.6,Approved,0.0,36.6,"Met the 33% target, but every affordable home is shared ownership.",http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2017/5818
+Yelverton Road,Cherwell Group,51.47007,-0.17606,33.0,35.1,19.4,Approved,8.3,11.1,Offer cut from 35% to 19% before approval. Later rebuilt by another developer with no social rent.,https://www.cjag.org/2019/07/28/a-new-16-storey-tower-proposed-near-york-road/
+Battersea Bridge Road,Cherwell Group,51.47688,-0.16891,33.0,37.5,37.5,Approved,0.0,37.5,"Met the 33% target, but every affordable home is shared ownership.",http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2021/1677
+Clapham Road,Cherwell Group,51.46707,-0.12759,40.0,,21.4,Approved,0.0,21.4,"About half the 40% target, and no homes for rent.",https://www.lambeth.gov.uk/sites/default/files/2023-05/Housing-Development-Pipeline-Report-2019-20.pdf
+Lillie Road,Cherwell Group,51.48298,-0.21594,40.0,,26.7,Approved,0.0,26.7,Below the 40% target; all affordable homes are intermediate.,https://public-access.lbhf.gov.uk/online-applications/simpleSearchResults.do?action=firstPage&searchType=Application&searchCriteria.simpleSearchString=2014%2F03969%2FFUL&searchCriteria.simpleSearch=true
+Michael Road,Cherwell Group,51.4778,-0.18898,40.0,,0.0,Approved,0.0,0.0,No affordable homes on site; a cash payment worth about 25% was taken instead.,https://democracy.lbhf.gov.uk/documents/s93762/Planning%20Applications%20-%20Updated.pdf
